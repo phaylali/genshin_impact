@@ -1,0 +1,42 @@
+name: genshin_achievement
+description: A Genshin Impact Custom Achievement Generator.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0-222.0.dev <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_painter:
+  flutter_svg:
+  google_fonts:
+  get:
+  auto_size_text: 
+  screenshot: 
+  file_saver: 
+  omniversify_core:
+    path: /omniversify/packages/omniversify_core
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - google_fonts/
+  fonts:
+    - family: OmniversifyGenshinFont
+      fonts:
+        - asset: assets/OmniversifyGenshin.ttf
+    
+        
+    
