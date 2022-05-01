@@ -33,6 +33,7 @@ flutter:
   assets:
     - assets/
     - google_fonts/
+    
   fonts:
     - family: OmniversifyGenshinFont
       fonts:
