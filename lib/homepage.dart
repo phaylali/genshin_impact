@@ -37,7 +37,7 @@ class HomePage extends GetView<OmniversalHomeController> {
 
               switch (pageindex) {
                 case 0:
-                  Get.toNamed(AppPages.home);
+                  Get.toNamed(AppPages.initial);
                   controller.update();
                   break;
                 case 1:

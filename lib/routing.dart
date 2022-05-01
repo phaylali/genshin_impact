@@ -6,7 +6,7 @@ import 'package:get/get.dart';
 import 'package:omniversify_core/omniversify_core.dart';
 
 abstract class Routes {
-  static const home = Paths.home;
+  //static const home = Paths.home;
   static const settings = Paths.settings;
   static const unknown = Paths.unknown;
   static const initial = Paths.initial;
@@ -15,7 +15,7 @@ abstract class Routes {
 }
 
 abstract class Paths {
-  static const home = '/Home';
+  //static const home = '/Home';
   static const settings = '/Settings';
   static const unknown = '/Error404';
   static const achievements = '/Achievements';
@@ -23,14 +23,14 @@ abstract class Paths {
 }
 
 abstract class AppPages {
-  static const home = Routes.home;
+  //static const home = Routes.home;
   static const unknown = Routes.unknown;
   static const initial = Routes.initial;
   static const settings = Routes.settings;
   static const achievements = Routes.achievements;
   static final routes = [
     GetPage(
-      name: Paths.home,
+      name: Paths.initial,
       page: () => HomePage(),
       binding: OmniversalHomeBinding(),
     ),

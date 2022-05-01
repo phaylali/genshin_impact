@@ -6,6 +6,7 @@ import 'package:genshin_achievement/achievement_text_controller.dart';
 import 'package:get/get.dart';
 import 'package:screenshot/screenshot.dart';
 
+
 class Achievement extends GetView<AchievementController> {
   const Achievement({Key? key}) : super(key: key);
 
@@ -22,6 +23,7 @@ class Achievement extends GetView<AchievementController> {
               width: 381,
               height: 87,
             ),
+            
             Positioned(
               top: (constraint.maxHeight / 3.55),
               left: (constraint.maxWidth / 3.37),

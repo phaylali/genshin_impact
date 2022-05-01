@@ -4,7 +4,6 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:genshin_achievement/achievement_text_controller.dart';
 import 'package:genshin_achievement/achievement_widgets.dart';
-import 'package:genshin_achievement/background.dart';
 import 'package:genshin_achievement/const.dart';
 import 'package:genshin_achievement/homepage.dart';
 import 'package:get/get.dart';
@@ -49,7 +48,7 @@ class AchievementsPage extends GetView<OmniversalHomeController> {
 
               switch (pageindex) {
                 case 0:
-                  Get.toNamed(AppPages.home);
+                  Get.toNamed(AppPages.initial);
                   Get.to(() => HomePage(),routeName: AppPages.initial);
                   controller.update();
                   break;
